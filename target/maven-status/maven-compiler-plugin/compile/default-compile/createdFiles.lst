@@ -13,6 +13,7 @@ com\example\Portafolio\security\dto\JwtDto.class
 com\example\Portafolio\model\Persona.class
 com\example\Portafolio\PortafolioApplication.class
 com\example\Portafolio\service\IEducacionService.class
+com\example\Portafolio\WebConfig.class
 com\example\Portafolio\security\dto\NuevoUsuario.class
 com\example\Portafolio\controller\ConocimienoController.class
 com\example\Portafolio\service\IConocimientoService.class
