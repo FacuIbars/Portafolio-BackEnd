@@ -50,7 +50,7 @@ public class MainSecurity  {
                 .antMatchers("/**").permitAll()
                 .anyRequest().authenticated();
 
-        http.addFilterBefore(jwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+         http.addFilterBefore(jwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
     }
